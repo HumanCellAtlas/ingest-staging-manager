@@ -1,3 +1,4 @@
 requests
 pika==0.12.0
 -e "git+https://github.com/HumanCellAtlas/ingest-client.git@40f2384#egg=hca_ingest"
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
